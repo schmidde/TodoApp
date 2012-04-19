@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TodoApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="newTask">New Todo</string>
+    <string name="taskDescription">Enter Description here</string>
+    <string name="taskTitle">Enter Title here</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnTaskDone">Done</string>
+    <string name="btnTaskNotDone">Not Done</string>
+    <string name="btnTaskDelete">Delete</string>
+    <string name="btnTaskSave">Save</string>
+    <string name="btnAddContact">Add Contact</string>
+    <string name="no_tasks">Nothing To Do</string>
+    <string name="toast_task_no_title">Please enter a title</string>
+    <string name="pref_server_url_summary">Enter here the server path</string>
+    <string name="pref_server_url_title">Server URL</string>
+    <string name="err_wrong_credentials">wrong Username or Password</string>
+    <string name="err_no_mail">username is not a valid E-Mail address</string>
+    <string name="err_no_internet">No Internet available.</string>
+    <string name="default_username">test@example.com</string>
+    <string name="default_password">12345</string>
+    <string name="sync_success">Todo Sync successful.</string>
+    <string name="sync_failure">Todo Sync failed.</string>
+
+</resources>

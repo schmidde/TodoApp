@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/llTaskEntry"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    <CheckBox android:id="@+id/cbTaskDone"
+              android:focusable="false"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+    <CheckBox android:id="@+id/cbFavorite"
+              android:focusable="false"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:button="@drawable/favorite"/>
+    <LinearLayout android:padding="10dip" android:layout_height="wrap_content" android:layout_width="wrap_content"
+                  android:orientation="vertical">
+        <TextView android:id="@+id/tvTaskTitle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvFinishDate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
